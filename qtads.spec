@@ -1,6 +1,6 @@
 %define name    qtads
-%define version 1.7
-%define release %mkrel 2
+%define version 1.8
+%define release %mkrel 1
 
 Name:           %{name} 
 Summary:        QTads is a GUI interpreter for Tads games
