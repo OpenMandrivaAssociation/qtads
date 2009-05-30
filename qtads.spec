@@ -1,9 +1,9 @@
 %define name    qtads
 %define version 1.8
-%define release %mkrel 1
+%define release %mkrel 2
 
 Name:           %{name} 
-Summary:        QTads is a GUI interpreter for Tads games
+Summary:        GUI interpreter for Tads games
 Version:        %{version} 
 Release:        %{release} 
 Source0:        %{name}-%{version}.tar.bz2
@@ -35,6 +35,7 @@ Mac OS X.
 %{_bindir}/qtads
 %{_datadir}/qtads/charmaps/*
 %{_datadir}/qtads/i18n/*
+%{_datadir}/applications/mandriva-%{name}.desktop
 
 #--------------------------------------------------------------------
 
@@ -56,6 +57,19 @@ rm -rf %{buildroot}
 %makeinstall
 mkdir -p %{buildroot}%{_mandir}/man6
 cp -f %{name}.6.gz %{buildroot}%{_mandir}/man6
+
+%{__mkdir_p} %{buildroot}%{_datadir}/applications
+%{__cat} > %{buildroot}%{_datadir}/applications/mandriva-%{name}.desktop << EOF
+[Desktop Entry]
+Name=%{name}
+Comment=GUI interpreter for Tads games
+Exec=%{name}
+Icon=other_amusement
+Terminal=false
+Type=Application
+Categories=Game;AdventureGame;RolePlaying;
+EOF
+
 
 %clean
 rm -rf %{buildroot}
