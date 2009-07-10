@@ -1,12 +1,12 @@
 %define name    qtads
-%define version 1.8
-%define release %mkrel 2
+%define version 1.9
+%define release %mkrel 1
 
 Name:           %{name} 
 Summary:        GUI interpreter for Tads games
 Version:        %{version} 
 Release:        %{release} 
-Source0:        %{name}-%{version}.tar.bz2
+Source0:        http://downloads.sourceforge.net/sourceforge/%{name}/%{name}-%{version}.tar.bz2
 URL:            http://qtads.sourceforge.net/
 License:        GPLv2
 
