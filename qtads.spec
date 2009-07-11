@@ -1,6 +1,6 @@
 %define name    qtads
 %define version 1.9
-%define release %mkrel 1
+%define release %mkrel 2
 
 Name:           %{name} 
 Summary:        GUI interpreter for Tads games
