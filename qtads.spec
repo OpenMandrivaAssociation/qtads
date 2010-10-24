@@ -55,7 +55,7 @@ rm -rf %{buildroot}
 mkdir -p %{buildroot}%{_bindir}
 cp qtads  %{buildroot}%{_bindir}/qtads
 mkdir -p %{buildroot}%{_mandir}/man6
-gzip %{name}.6 && cp -f %{name}.6.gz %{buildroot}%{_mandir}/man6
+cp -f %{name}.6 %{buildroot}%{_mandir}/man6
 
 %{__mkdir_p} %{buildroot}%{_datadir}/applications
 %{__cat} > %{buildroot}%{_datadir}/applications/mandriva-%{name}.desktop << EOF
