@@ -1,6 +1,6 @@
 %define name    qtads
 %define version 2.0.1
-%define release %mkrel 2
+%define release %mkrel 3
 
 Name:           %{name} 
 Summary:        GUI multimedia interpreter for TADS games
@@ -13,6 +13,7 @@ License:        GPLv2+
 Group:          Games/Other
 BuildRequires:  qt4-devel SDL-devel SDL_mixer-devel SDL_sound-devel
 BuildRoot:      %{_tmppath}/%{name}-buildroot
+Suggests:	timidity-instruments
 
 %description
 QTads is a cross-platform multimedia interpreter for Tads (Text Adventure 
