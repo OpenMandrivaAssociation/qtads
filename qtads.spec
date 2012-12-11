@@ -74,3 +74,55 @@ EOF
 %clean
 rm -rf %{buildroot}
 
+
+
+%changelog
+* Sun Mar 04 2012 Samuel Verschelde <stormi@mandriva.org> 2.1.2-1mdv2011.0
++ Revision: 782098
+- update to new version 2.1.2
+
+* Fri Mar 11 2011 Samuel Verschelde <stormi@mandriva.org> 2.1.1-1
++ Revision: 643807
+- version 2.1.1
+
+* Sun Oct 24 2010 Samuel Verschelde <stormi@mandriva.org> 2.0.1-3mdv2011.0
++ Revision: 589203
+- suggests timidity-instruments for MIDI playback
+
+* Sun Oct 24 2010 Samuel Verschelde <stormi@mandriva.org> 2.0.1-2mdv2011.0
++ Revision: 588939
+- bump release
+- do not gzip man page
+
+* Sun Oct 24 2010 Samuel Verschelde <stormi@mandriva.org> 2.0.1-1mdv2011.0
++ Revision: 588683
+- new version 2.0.1, uses QT4 now, and becomes multimedia (images/sounds/music)
+
+* Sat Jul 11 2009 Samuel Verschelde <stormi@mandriva.org> 1.9-2mdv2010.0
++ Revision: 394361
++ rebuild (emptylog)
+
+* Sat Jul 11 2009 Samuel Verschelde <stormi@mandriva.org> 1.9-1mdv2010.0
++ Revision: 394352
+- update to new version 1.9
+
+* Sat May 30 2009 Samuel Verschelde <stormi@mandriva.org> 1.8-2mdv2010.0
++ Revision: 381529
+- added desktop file
+- modified summary
+
+* Fri May 29 2009 Samuel Verschelde <stormi@mandriva.org> 1.8-1mdv2010.0
++ Revision: 381141
+- new version 1.8
+
+* Thu May 21 2009 Samuel Verschelde <stormi@mandriva.org> 1.7-2mdv2010.0
++ Revision: 378341
+- rebuild for gcc 4.4
+
+* Tue Mar 17 2009 Nicolas Lécureuil <nlecureuil@mandriva.com> 1.7-1mdv2009.1
++ Revision: 356597
+- import qtads
+
+
+* Mon Mar 31 2008 Samuel Verschelde <specialspam@laposte.net> 1.7-1mdv2008.1
+- first package 
