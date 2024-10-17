@@ -7,7 +7,7 @@ Summary:        GUI multimedia interpreter for TADS games
 Version:        %{version} 
 Release:        %{release} 
 Source0:	http://downloads.sourceforge.net/project/qtads/qtads-2.x/%{version}/%{name}-%{version}.tar.bz2
-URL:            http://qtads.sourceforge.net/
+URL:            https://qtads.sourceforge.net/
 License:        GPLv2+
 
 Group:          Games/Other
