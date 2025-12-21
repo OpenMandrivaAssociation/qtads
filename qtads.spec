@@ -11,6 +11,7 @@ URL:            https://qtads.sourceforge.net/
 License:        GPLv2+
 
 Group:          Games/Other
+BuildRequires:	make
 BuildRequires:  qt4-devel SDL-devel SDL_mixer-devel SDL_sound-devel
 BuildRoot:      %{_tmppath}/%{name}-buildroot
 Suggests:	timidity-instruments
